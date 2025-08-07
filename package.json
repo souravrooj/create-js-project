@@ -1,10 +1,10 @@
 {
-  "name": "create-js-project",
+  "name": "js-project-generator",
   "version": "1.0.0",
   "description": "CLI tool to create various JavaScript/TypeScript project structures",
   "main": "dist/index.js",
   "bin": {
-    "create-js-project": "./dist/index.js"
+    "js-project-generator": "./dist/index.js"
   },
   "scripts": {
     "build": "tsc",

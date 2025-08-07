@@ -9,7 +9,7 @@ import { ProjectType } from "./types/ProjectType";
 const program = new Command();
 
 program
-  .name("create-js-project")
+  .name("js-project-generator")
   .description("CLI to create various JavaScript/TypeScript project structures")
   .version("1.0.0")
   .argument("[project-name]", "Name of the project")

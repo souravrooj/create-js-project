@@ -1,4 +1,4 @@
-# create-js-project
+# js-project-generator
 
 A powerful CLI tool to quickly scaffold various JavaScript and TypeScript project structures with best practices and modern tooling.
 
@@ -27,13 +27,13 @@ A powerful CLI tool to quickly scaffold various JavaScript and TypeScript projec
 ### Global Installation (Recommended)
 
 ```bash
-npm install -g create-js-project
+npm install -g js-project-generator
 ```
 
 ### Local Installation
 
 ```bash
-npx create-js-project@latest
+npx js-project-generator@latest
 ```
 
 ## 📖 Usage
@@ -41,7 +41,7 @@ npx create-js-project@latest
 ### Interactive Mode
 
 ```bash
-create-js-project
+js-project-generator
 ```
 
 This will prompt you for:
@@ -52,29 +52,29 @@ This will prompt you for:
 ### Command Line Arguments
 
 ```bash
-create-js-project <project-name> --type <project-type> --language <language>
+js-project-generator <project-name> --type <project-type> --language <language>
 ```
 
 #### Examples
 
 ```bash
 # Create an Express.js project with TypeScript
-create-js-project my-api --type express --language ts
+js-project-generator my-api --type express --language ts
 
 # Create a React project with JavaScript
-create-js-project my-app --type react --language js
+js-project-generator my-app --type react --language js
 
 # Create a Next.js project (TypeScript only)
-create-js-project my-nextjs-app --type nextjs
+js-project-generator my-nextjs-app --type nextjs
 
 # Create a NestJS project (TypeScript only)
-create-js-project my-nest-api --type nest
+js-project-generator my-nest-api --type nest
 
 # Create an Electron app with TypeScript
-create-js-project my-desktop-app --type electron --language ts
+js-project-generator my-desktop-app --type electron --language ts
 
 # Create a React Native app
-create-js-project my-mobile-app --type react-native
+js-project-generator my-mobile-app --type react-native
 ```
 
 ## 🏗️ Project Structures
@@ -212,7 +212,7 @@ Each generated project comes with:
 
 ### Express.js API
 ```bash
-create-js-project my-api --type express --language ts
+js-project-generator my-api --type express --language ts
 cd my-api
 npm install
 npm run dev
@@ -220,7 +220,7 @@ npm run dev
 
 ### React App
 ```bash
-create-js-project my-react-app --type react --language ts
+js-project-generator my-react-app --type react --language ts
 cd my-react-app
 npm install
 npm run dev
@@ -228,7 +228,7 @@ npm run dev
 
 ### Next.js App
 ```bash
-create-js-project my-nextjs-app --type nextjs
+js-project-generator my-nextjs-app --type nextjs
 cd my-nextjs-app
 npm install
 npm run dev
