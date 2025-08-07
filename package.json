@@ -1,6 +1,6 @@
 {
   "name": "js-project-generator",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "description": "CLI tool to create various JavaScript/TypeScript project structures",
   "main": "dist/index.js",
   "bin": {
